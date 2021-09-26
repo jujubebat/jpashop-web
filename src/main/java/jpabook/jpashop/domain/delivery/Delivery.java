@@ -1,4 +1,4 @@
-package jpabook.jpashop.domain;
+package jpabook.jpashop.domain.delivery;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -9,6 +9,8 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
+import jpabook.jpashop.domain.Address;
+import jpabook.jpashop.domain.order.Order;
 import lombok.Getter;
 import lombok.Setter;
 
